@@ -15,6 +15,6 @@
 --Tips
 --git status <really useful, tells me things i might be missing>
 --git diff <shows changes>
---git log <shows a log>
+--git log <shows a log> <git log --oneline>
 --git push <pushs changes to website>
 --git pull <pulls changes from website>
