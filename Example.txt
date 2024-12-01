@@ -19,3 +19,4 @@
 --git push <pushs changes to website>
 --git pull <pulls changes from website>
 --git restore --staged "example.txt" <staged changes in the file but you don't want to commit them>
+-- .gitignore <git will ignore this FILE"
