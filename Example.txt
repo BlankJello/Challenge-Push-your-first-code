@@ -1,0 +1,5 @@
+--How to make and add a file
+--Fist use git add <file name>
+--Then use git commit -m "your message"
+--Next you need to save it the online part using git push
+--Now it's done
