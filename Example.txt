@@ -1,3 +1,6 @@
+--How to clone
+--git clone <url>
+
 --How to make and add a file
 --Fist use git add <file name>
 --Then use git commit -m "your message"
