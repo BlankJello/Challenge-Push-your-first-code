@@ -9,3 +9,4 @@
 
 --Tips
 --git status <really useful, tells me things i might be missing>
+--git diff <shows changes>
