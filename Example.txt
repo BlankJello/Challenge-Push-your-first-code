@@ -7,6 +7,11 @@
 --Next you need to save it the online part using git push
 --Now it's done
 
+--How to revert everything
+--Use git log
+--Find the log you want to go back to <find the id you want>
+--Then just use git log <id>
+
 --Tips
 --git status <really useful, tells me things i might be missing>
 --git diff <shows changes>
