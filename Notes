@@ -20,3 +20,4 @@
 --git pull <pulls changes from website>
 --git restore --staged "example.txt" <staged changes in the file but you don't want to commit them>
 -- .gitignore <git will ignore this FILE"
+--   code ./<file name (https://gitlab.com/[d197-version-control].git)/
