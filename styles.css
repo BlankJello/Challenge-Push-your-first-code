@@ -1,54 +1,62 @@
+/* 1. Font Family Declaration */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Arial', sans-serif; /* This font-family is used throughout the website */
     margin: 0;
     padding: 0;
 }
 
-header {
-    background-color: #4CAF50;
-    color: white;
-    padding: 10px 0;
-    text-align: center;
-}
-
-nav {
-    background-color: #2196F3;
-}
-
-nav ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-nav ul li {
-    display: inline;
-    margin-right: 20px;
-}
-
+/* 2. :hover Pseudo-Class for Navigation Links */
 nav a {
     color: white;
     text-decoration: none;
+    padding: 5px 10px;
 }
 
 nav a:hover {
-    text-decoration: underline;
+    background-color: #FFC107; /* Rollover effect for navigation links */
+    color: black;
 }
 
-section {
-    margin: 20px;
-}
-
+/* 3. Float Property */
 aside {
-    float: right;
+    float: right; /* Positions the aside element to the right of the main section */
     width: 25%;
     background-color: #FFC107;
     padding: 10px;
 }
 
-footer {
-    text-align: center;
+/* 4. Absolute Positioning */
+.absolute-position {
+    position: absolute; /* This class can be applied to any element for absolute positioning */
+    top: 20px; /* Adjusts the vertical position */
+    left: 20px; /* Adjusts the horizontal position */
+}
+
+/* 5. Relative Positioning */
+.relative-position {
+    position: relative; /* This class can be applied to any element for relative positioning */
+    top: 10px; /* Moves the element down by 10px */
+    left: 10px; /* Moves the element to the right by 10px */
+}
+
+/* 6. CSS Selectors */
+h1 {
+    color: #4CAF50; /* Element Selector */
+}
+
+.highlight {
+    background-color: #FFD700; /* Class Selector */
+    padding: 5px;
+}
+
+.highlight {
+    border: 1px solid #000; /* Class Selector used twice */
+}
+
+/* ID Selector */
+#footer {
+    text-align: center; /* ID Selector */
     padding: 10px;
     background-color: #4CAF50;
     color: white;
-    clear: both;
 }
