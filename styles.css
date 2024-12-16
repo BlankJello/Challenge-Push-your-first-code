@@ -7,7 +7,7 @@ body {
 
 /* 2. :hover Pseudo-Class for Navigation Links */
 nav a {
-    color: #0fd329;
+    color: white;
     text-decoration: none;
     padding: 1px;
     background-color: #007BFF; /* Default background color */
@@ -20,7 +20,7 @@ nav a:hover {
 
 /* 3. Float Property */
 aside {
-    float: right; /* Positions the aside element to the right of the main section */
+    float: none; /* Positions the aside element to the right of the main section */
     width: 25%;
     background-color: #0fd329;
     padding: 15px;
