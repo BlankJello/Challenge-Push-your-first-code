@@ -7,7 +7,7 @@ body {
 
 /* 2. :hover Pseudo-Class for Navigation Links */
 nav a {
-    color: rgb(218, 25, 25);
+    color: white;
     text-decoration: none;
     padding: 1px;
     background-color: #007BFF; /* Default background color */
@@ -22,7 +22,7 @@ nav a:hover {
 aside {
     float: right; /* Positions the aside element to the right of the main section */
     width: 25%;
-    background-color: #083057;
+    background-color: #0fd329;
     padding: 15px;
 }
 
@@ -62,5 +62,5 @@ h1 {
     text-align: center; /* ID Selector */
     padding: 10px;
     background-color: #4CAF50;
-    color: rgb(75, 10, 10);
+    color: white;
 }
