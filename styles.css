@@ -9,26 +9,27 @@ body {
 nav a {
     color: white;
     text-decoration: none;
-    padding: 5px 10px;
+    padding: 10px;
+    background-color: #007BFF; /* Default background color */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
 }
 
 nav a:hover {
-    background-color: #FFC107; /* Rollover effect for navigation links */
-    color: black;
+    background-color: #0056b3; /* Rollover effect for navigation links */
 }
 
 /* 3. Float Property */
 aside {
     float: right; /* Positions the aside element to the right of the main section */
     width: 25%;
-    background-color: #FFC107;
-    padding: 10px;
+    background-color: #f8f9fa;
+    padding: 15px;
 }
 
 /* 4. Absolute Positioning */
 .absolute-position {
     position: absolute; /* This class can be applied to any element for absolute positioning */
-    top: 20px; /* Adjusts the vertical position */
+    top: 50px; /* Adjusts the vertical position */
     left: 20px; /* Adjusts the horizontal position */
 }
 
@@ -40,15 +41,18 @@ aside {
 }
 
 /* 6. CSS Selectors */
+/* Element Selector */
 h1 {
     color: #4CAF50; /* Element Selector */
 }
 
+/* Class Selector */
 .highlight {
     background-color: #FFD700; /* Class Selector */
     padding: 5px;
 }
 
+/* Class Selector used twice */
 .highlight {
     border: 1px solid #000; /* Class Selector used twice */
 }
