@@ -1,66 +1,67 @@
+/* 1. Font Family Declaration */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Arial', sans-serif; /* This font-family is used throughout the website */
     margin: 0;
     padding: 0;
 }
 
-header {
-    background-color: #4CAF50;
-    color: white;
-    padding: 10px 0;
-    text-align: center;
-}
-
-nav {
-    background-color: #2196F3;
-}
-
-nav ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-nav ul li {
-    display: inline;
-    margin-right: 20px;
-}
-
+/* 2. :hover Pseudo-Class for Navigation Links */
 nav a {
     color: white;
     text-decoration: none;
+    padding: 10px;
+    background-color: #007BFF; /* Default background color */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
 }
 
 nav a:hover {
-    text-decoration: underline;
+    background-color: #0056b3; /* Rollover effect for navigation links */
 }
 
-section {
-    margin: 20px;
-}
-
+/* 3. Float Property */
 aside {
-    float: right;
+    float: right; /* Positions the aside element to the right of the main section */
     width: 25%;
-    background-color: #FFC107;
-    padding: 10px;
+    background-color: #f8f9fa;
+    padding: 15px;
 }
 
-footer {
-    text-align: center;
+/* 4. Absolute Positioning */
+.absolute-position {
+    position: absolute; /* This class can be applied to any element for absolute positioning */
+    top: 50px; /* Adjusts the vertical position */
+    left: 20px; /* Adjusts the horizontal position */
+}
+
+/* 5. Relative Positioning */
+.relative-position {
+    position: relative; /* This class can be applied to any element for relative positioning */
+    top: 10px; /* Moves the element down by 10px */
+    left: 10px; /* Moves the element to the right by 10px */
+}
+
+/* 6. CSS Selectors */
+/* Element Selector */
+h1 {
+    color: #4CAF50; /* Element Selector */
+}
+
+/* Class Selector */
+.highlight {
+    background-color: #FFD700; /* Class Selector */
+    padding: 5px;
+}
+
+/* Class Selector used twice */
+.highlight {
+    border: 1px solid #000; /* Class Selector used twice */
+}
+
+/* ID Selector */
+#footer {
+    text-align: center; /* ID Selector */
     padding: 10px;
     background-color: #4CAF50;
     color: white;
-    clear: both;
 }
 
-/* Additional styles for positioning */
-.relative {
-    position: relative;
-    top: 10px;
-}
-
-.absolute {
-    position: absolute;
-    top: 50px;
-    left: 50px;
-}
